@@ -92,17 +92,17 @@ jobs:
       matrix:
         include:
           - os: ubuntu-22.04
-            artifact: issue-writer.linux-amd64
+            artifact: go-bucket-manager-bff.linux-amd64
             platform: linux-amd64
             goarch: amd64
             goos: linux
           - os: macos-14 # Apple Silicon
-            artifact: issue-writer.darwin-arm64
+            artifact: go-bucket-manager-bff.darwin-arm64
             platform: darwin-arm64
             goarch: arm64
             goos: darwin
           - os: macos-latest # Intel x64
-            artifact: issue-writer.darwin-amd64
+            artifact: go-bucket-manager-bff.darwin-amd64
             platform: darwin-amd64
             goarch: amd64
             goos: darwin
